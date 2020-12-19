@@ -17,8 +17,8 @@ Admin can manipulate with users(get all users list, specific user, delete user),
 Author can only make posts and provide requested changes.
 
 About this project structure as you can see I have divided every entity in separate folders.
-Base directory consiste controller, repository, service and middlevare class which will be extended so I use them as a "template" for other classes.
-All entities are divided in different service providiers. All depedency injections are resolved inside service providiers.
+Base directory consists controller, repository, service and middleware class which will be extended so I use them as a "template" for other classes.
+All entities are divided in different service providers. All depedency injections are resolved inside service providiers.
 
 
 #### For this project you must have mail.trap account.
