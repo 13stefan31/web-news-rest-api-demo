@@ -43,9 +43,9 @@ All entities are divided in different service providiers. All depedency injectio
 
 ### Optional, in case that you want to seed a database run this commands:
 
-1.php artisan db:seed --class=UserSeeder -> seed users table
-2.php artisan db:seed --class=PostCategorySeeder -> seed categories table
-3.php artisan db:seed --class=PostSeeder -> seed post table
-4.php artisan db:seed --class=CommentSeeder -> seed comment table
+1. php artisan db:seed --class=UserSeeder -> seed users table
+2. php artisan db:seed --class=PostCategorySeeder -> seed categories table
+3. php artisan db:seed --class=PostSeeder -> seed post table
+4. php artisan db:seed --class=CommentSeeder -> seed comment table
 
 postman collection you can download [here](https://drive.google.com/file/d/1lonVRJY6aslIP4OZCOnnaEk7aJAPcl_O/view?usp=sharing), postman environment you can download [here](https://drive.google.com/file/d/1ImnhZ91y0XJYjSUBhJpsOKBJ_C31ElDf/view?usp=sharing)
