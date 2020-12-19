@@ -25,7 +25,7 @@ All entities are divided in different service providers. All depedency injection
 
 ### To run this project you need to run following commands:
 
-1. Manualy create a database scheme inside you mysql server.
+1. Manually create a database scheme inside you mysql server.
 
 2. rename .env-example into .env and insert your credentials
 
