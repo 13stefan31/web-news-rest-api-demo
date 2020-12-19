@@ -13,7 +13,7 @@ This project have 3 kind of users:
 * admin
 
 Visitor can manipulate with comments and haven't got any other permissions.
-Admin can manipulate with users(get all users kist, specific user, delete user), also can do some operations with posts(publish, recommend, unrecommend, suggest changes...).
+Admin can manipulate with users(get all users list, specific user, delete user), also can do some operations with posts(publish, recommend, unrecommend, suggest changes...).
 Author can only make posts and provide requested changes.
 
 About this project structure as you can see I have divided every entity in separate folders.
