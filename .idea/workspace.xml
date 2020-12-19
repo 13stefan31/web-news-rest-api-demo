@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2c2c0eaf-92ec-4a82-a42a-869e85c8d326" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Authorization/Service/AuthorizationService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Authorization/Service/AuthorizationService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User/Middleware/UpdateOrDeleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User/Middleware/UpdateOrDeleteUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/Post/Model/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/Post/Model/PostFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
