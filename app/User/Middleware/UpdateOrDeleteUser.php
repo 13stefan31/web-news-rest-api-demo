@@ -29,6 +29,13 @@ class UpdateOrDeleteUser extends BaseMiddleware
             }
         }
 
+        if($request->method() === "GET")
+        {
+            if ($this->authServices->isAdmin($user)) {
+                return $next($request);
+            }
+        }
+
         if ($this->authServices->isAllowedForDeleteUser($user, $request->id)) {
             return $next($request);
         }

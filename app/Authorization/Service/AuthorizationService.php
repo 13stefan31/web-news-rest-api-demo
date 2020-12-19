@@ -46,7 +46,7 @@ class AuthorizationService
     {
         $this->checkIsNull($user);
 
-        if ($user->id === (int)$id){
+        if ($user->id === (int)$id || $this->isAdmin($user)){
             return true;
         }
 

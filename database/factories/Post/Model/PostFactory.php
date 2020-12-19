@@ -32,6 +32,7 @@ class PostFactory extends Factory
             'picture_links' => $this->faker->url."----".$this->faker->url,
             'owner' => $this->getRandomUser(),
             'recommended' => $this->faker->boolean(50),
+            'is_active' => $this->faker->boolean(60),
 
         ];
     }

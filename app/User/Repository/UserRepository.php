@@ -23,8 +23,10 @@ class UserRepository extends BaseRepository
         $q = $this->model::query();
 
         if (is_null($category) === False) {
-            $q->whereHas('role', function ($query) use ($category) {
-                $query->Where('role_name', $category);
+            $q->when($category, function ($query) use ($category) {
+                $query->Where(function ($query) use ($category) {
+                    $query->where('position', $category);
+                });
             });
         }
 
